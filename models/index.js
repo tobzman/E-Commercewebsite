@@ -3,7 +3,9 @@ const Product = require("./Product.js");
 const ProductTag = require("./ProductTag.js");
 const Tag = require("./Tag.js");
 
-Category.hasMany(Product)
-Product.belongsTo(Category)
-Product.belongsToMany(Tag, { through:ProductTag})
+Category.hasMany(Product);
+Product.belongsTo(Category);
+Product.belongsToMany(Tag, { through: ProductTag });
+Tag.belongsToMany(Product, { through: ProductTag });
+
 module.exports = { Category, Product, ProductTag, Tag };

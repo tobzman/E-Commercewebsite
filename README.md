@@ -33,7 +33,7 @@ As a manager at an internet retail company, I want a back end for my e-commerce 
 
 ## Mock-Up
 
-[Link to Your Walkthrough Video]
+[Link to Your Walk<video src="week%2013%20video.mp4" controls title="week 13"></video>through Video]
 
 ## Getting Started
 

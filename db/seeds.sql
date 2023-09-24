@@ -1,3 +1,4 @@
+
 INSERT INTO category (category_name) VALUES
   ('Electronics'),
   ('Clothing'),
@@ -23,16 +24,15 @@ INSERT INTO tag (tag_name) VALUES
 
 
 INSERT INTO product_tag (product_id, tag_id) VALUES
-  (1, 1),
-  (1, 4),
-  (1, 5),
-  (2, 1),
-  (2, 4),
-  (3, 2),
-  (3, 5),
-  (4, 2),
-  (4, 5),
-  (5, 3),
-  (5, 6),
-  (6, 3),
-  (6, 6);
+  (1, 4), 
+  (1, 5), 
+  (2, 4), 
+  (2, 5), 
+  (3, 2), 
+  (3, 5), 
+  (4, 2), 
+  (4, 5), 
+  (5, 3), 
+  (5, 6), 
+  (6, 3), 
+  (6, 6); 
